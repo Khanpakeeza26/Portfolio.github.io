@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.body {
+      /* border: 1px solid black; */
+      height: 200vh;
+      background-attachment: fixed;
+      /* background-image: background-color: #130013; */
+      
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='350' height='350' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23440718' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+.hero-1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../logs/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Caveat',
+        cursive;
+
+}
+span{
+    color: #f9004d;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Caveat',
+        cursive; 
+        text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-family: 'Caveat',
+        cursive;
+}
+.content h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px, 0px 15px #8585;
+    top: 6px;
+    right: 6px;
+
+}
+
+
+
+.parent{
+    /* border: 2px solid slateblue; */
+    padding: 20px;
+    height: 80vh;
+   margin: 0 10px 0 10px;
+   
+   display: flex;
+   text-align: centre;
+   justify-content:space-between;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23444444' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23666666' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23888888' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23cccccc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  
+        
+           
+   /* position: absolute; */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.left-card{
+    /* border: 2px solid green; */
+    /* padding: 20px; */
+    /* height: 30vh; */
+    width: 30%;
+    margin: 50px 0 50px 0;
+    position: relative;
+    animation-name: pakeeza1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    /* background-image: url(../logs/sasha-freemind-nXo2ZsKHTHg-unsplash.jpg); */
+
+   
+   
+}
+@keyframes pakeeza1{
+    from{
+        width: 30%;
+
+    }
+    to{
+        width: 40%;
+
+    }
+}
+.right-card{
+    /* border: 2px solid green; */
+    padding: 20px;
+    height: 60vh;
+    width: 60%;
+    
+
+
+   
+}
+p{
+    overflow-wrap: break-word;
+    margin: auto;
+    
+
+
+}
+.parent-2{
+    /* width: 90%; */
+        /* padding: 20px; */
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 10px 10px 10px;
+}
+.cards {
+    width: 20%;
+    /* border-radius: 15px 50px; */
+}
+
+.cards img {
+    width: 100%;
+    /* border-radius: 15px 50px; */
+}
+
+h1{
+    font-family: 'Tilt Prism',
+        cursive;
+        margin: 20px;
+}
+    .hero{
+        /* border: 2px solid saddlebrown; */
+        padding: 20px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        background-color: rgb(215, 204, 190);
+        
+    }
+    .desp{
+        /* border: 2px solid slateblue; */
+        padding: 20px;
+        height: max-content;
+       
+        width: 30%;
+    }
+    p{
+        overflow-wrap: break-word;
+            margin: auto;
+    }
+    .pic{
+        /* border: 2px solid blueviolet; */
+        padding: 20px;
+        width: 60%;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    }
+
+    .footer {
+        /* border:2px solid salmon; */
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+        
+    }
+    h3{
+        font-family: 'Barriecito',
+            cursive;;
+    }
+
+    i{
+        margin: 10px 0px 60px 0px;
+        font-size: 30wv;
+      
+    }
